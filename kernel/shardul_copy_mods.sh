@@ -10,8 +10,7 @@ cp -u drivers/hid/hid-apple.ko $versiondir
 cp -u drivers/hid/hid-belkin.ko $versiondir
 cp -u drivers/hid/hid-microsoft.ko $versiondir
 cp -u drivers/net/tun.ko $versiondir
-cp -u drivers/net/wireless/libra/librasdioif.ko $versiondir
-cp -u drivers/scsi/scsi_wait_scan.ko $versiondir
 cp -u fs/ext4/ext4.ko $versiondir
 cp -u fs/isofs/isofs.ko $versiondir
 cp -u fs/jbd2/jbd2.ko $versiondir
+cp -u drivers/usb/storage/usb-storage.ko $versiondir
